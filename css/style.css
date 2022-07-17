@@ -49,11 +49,71 @@ nav ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 8%;
+    right: 8%;
 }
 h1{
     color: #ffff;
-    margin: 20px 0px 20px;
+    margin-bottom: 30px;
     font-size: 40px;
+}
+h3{
+    color: #011627;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+h4{
+    color: #011627;
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+.about{
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #011627;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 5px;
+}
+.about_text{
+    width: 550px;
+}
+.main{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_text h2{
+    color: #fdfffc;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about_text p{
+    color: #ff9f1c;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.read_more_btn{
+    background-color: #011627;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.read_more_btn:hover{
+    transform: scale(1.3);
+    color: #e71d36;
+    letter-spacing: 5px;
 }
