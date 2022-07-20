@@ -72,6 +72,8 @@ h4{
     width: 100%;
     padding: 50px 20px;
     background-color: #011627;
+    display: flex;
+    justify-content: space-between;
 }
 .about img{
     height: auto;
@@ -87,6 +89,25 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
+
+/*  */
+.big-card{
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.big-card:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.img-big-card{
+    width: 50%;
+    height: 100vh;
+}
+
+
 .about_text h2{
     color: #fdfffc;
     font-size: 75px;
